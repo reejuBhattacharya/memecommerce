@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="DashBoard"
+        android:icon="@drawable/ic_dashboard"
+        android:id="@+id/dashboardFragment"/>
+
+    <item android:icon="@drawable/ic_products"
+        android:title="Products"
+        android:enabled="true"
+        android:id="@+id/productsFragment"/>
+
+    <item android:icon="@drawable/ic_orders"
+        android:title="Orders"
+        android:id="@+id/ordersFragment"/>
+</menu>
+
+<!--<menu xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <item-->
+<!--        android:id="@+id/homeFragment"-->
+<!--        android:title="Home"-->
+<!--        android:icon="@drawable/ic_orders"/>-->
+<!--    <item-->
+<!--        android:id="@+id/profileFragment"-->
+<!--        android:title="Profile"-->
+<!--        android:icon="@drawable/ic_products"/>-->
+<!--    <item-->
+<!--        android:id="@+id/settingsFragment"-->
+<!--        android:title="Setting"-->
+<!--        android:icon="@drawable/ic_dashboard"/>-->
+
+<!--</menu>-->
